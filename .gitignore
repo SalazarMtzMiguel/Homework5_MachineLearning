@@ -1,70 +1,25 @@
 # Entornos virtuales
 venv/
-.env/
-venv*/
-ENV/
-
-# Metaflow
-.metaflow/
-
-# Archivos de Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.pyd
-*.egg-info/
-*.egg
-
-# JAX/JAXlib (archivos binarios grandes)
-jaxlib/
-*.so
-*.dll
-*.pyd
-
-# Datos y configuraciones sensibles
-data/
-*.db
-*.sql
-*.csv
-*.h5
-*.pkl
-*.joblib
-config.py
-credentials.json
 .env
-*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Logs y resultados
-logs/
+# Archivos/metaflow
+.metaflow/
 *.log
-*.tmp
-*.bak
-*.swp
-*.swo
+*.sqlite
+*.db
 
-# IDE y herramientas
-.idea/
-.vscode/
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
-
-# Outputs de Metaflow
+# Datos sensibles o resultados pesados
+output/
+logs/
 data/
-metaflow/
-MFDATA/
 
-# Archivos grandes temporales
-*.npy
-*.npz
-*.bin
-
-# Notebooks (si usas Jupyter)
+# Archivos de Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# Archivos de sistema
-*.bak
-~$*
+# IDE
+.vscode/
+.idea/
